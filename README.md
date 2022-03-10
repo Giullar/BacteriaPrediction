@@ -24,7 +24,7 @@ Then we will use the transformed data to train different machine learning models
 
 ## Results
 
-After some testing using PCA with a different numbers of components, it has been found that the problem could be efficently solved after reducing the 286 data's dimensions to less than 10. Cross validation was used for estimating both the best number of components to use in PCA and the specific hyper-parameters for the tested ML models.
+After some testing using PCA with a different number of components, it has been found that the problem could be efficently solved after reducing the 286 data's dimensions to less than 10. Cross validation was used for estimating both the best number of components to use in PCA and the specific hyper-parameters for the tested ML models.
 It emerged that the best model to use was a Random Forest, which was able to achieve a result in accuracy of 0.88 on the Kaggle's test set.
 
 ## References
