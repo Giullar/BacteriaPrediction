@@ -22,6 +22,11 @@ After an initial analysis of the dataset it's evident that we are working with v
 We will start by trying to mitigate this problem by using a dimensionality reduction technique like PCA (Principal Component Analysis).
 Then we will use the transformed data to train different machine learning models in order to find the most appropriate architecture to solve the task.
 
+## Results
+
+After some testing using PCA with a different numbers of components, it has been found that the problem could be efficently solved after reducing the 286 data's dimensions to less than 10. Cross validation was used for estimating both the best number of components to use in PCA and the specific hyper-parameters for the tested ML models.
+It emerged that the best model to use was a Random Forest, which was able to achieve a result in accuracy of 0.88 on the Kaggle's test set.
+
 ## References
 - What is a K-mer: https://en.wikipedia.org/wiki/K-mer
 
