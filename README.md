@@ -7,7 +7,7 @@ https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
 
 ## The Task
 
-The task is to classify 10 different bacteria species using data from a genomic analysis technique that has some data compression and data loss. In this technique, 10-mer snippets of DNA are sampled and analyzed to give the histogram of base count (Raman spectroscopy). In other words, the DNA segment **ATATGGCCTT** becomes **A2T4G2C2**. We want to accurately predict bacteria species starting from this lossy information.
+The task is to classify 10 different bacteria species using data from a genomic analysis technique that has some data compression and data loss. In this technique, 10-mer snippets of DNA are sampled and analyzed to give the histogram of base count. In other words, the DNA segment **ATATGGCCTT** becomes **A2T4G2C2**. We want to accurately predict bacteria species starting from this lossy information.
 
 ## The Data
 
