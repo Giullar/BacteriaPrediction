@@ -19,6 +19,7 @@ The notebook uses the following libraries:
 * numpy
 * pandas
 * sklearn
+* tensorflow
 * matplotlib.pyplot
 
 
